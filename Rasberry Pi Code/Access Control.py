@@ -2,8 +2,8 @@ import requests
 import serial
 
 ser=serial.Serial('/dev/ttyUSB1',9600)
-chatId="-658029637"
-botToken="5276803832:AAFt1lMnEeg5gicneyAs8AoHJbHuu0OTW5M"
+chatId="-000000000" #personal charId hidden for privacy reason
+botToken="9999999999:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" #personal chatId is hidden for privacy reason
 
 def senddata():
     while True:
