@@ -10,10 +10,15 @@ but also to Telegram App so that everyone in the security team can receive alert
 they will still receive the alert as well when there are abnormal situations.
 
 After incomer input the 4-digit password code by pressing push buttons, a notification showing ‘Access Granted/Access Denied’ 
-will be shown in OLED display and sent to the monitor and conversation in the Telegram App through Raspberry PI. 
-The notification in the App can be saved as history. If the password is correct, the door will open by driving Stepper Motor and the RGB will turn to Green Colour. 
+will be shown in OLED display and sent to the monitor(OLED Display) and conversation in the Telegram App through Raspberry PI. 
+The notification in the App can be saved as history. 
+
+If the password is correct, the door will open by driving Stepper Motor and the RGB will turn to Green Colour. 
 Otherwise, the door will not open, the RGB Led will turn to Red Colour, as well as the system will trigger a multi-tone auditory signal 
 exciting a buzzer by applying the PWM signals at different frequencies. After 5 seconds, incomer can enter password again.
+
+Addition Function: Added temperature sensor to detect temperature constantly. If the temperature detected is higher than a certain degree,
+an alert will be sent to monitor(OLED display) and the app.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
