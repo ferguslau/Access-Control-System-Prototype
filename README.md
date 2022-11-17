@@ -17,7 +17,7 @@ If the password is correct, the door will open by driving Stepper Motor and the 
 Otherwise, the door will not open, the RGB Led will turn to Red Colour, as well as the system will trigger a multi-tone auditory signal 
 exciting a buzzer by applying the PWM signals at different frequencies. After 5 seconds, incomer can enter password again.
 
-Addition Function: Added temperature sensor to detect temperature constantly. If the temperature detected is higher than a certain degree,
+Addition Function: A temperature sensor is added to detect fire constantly. If the temperature detected is higher than a certain degree,
 an alert will be sent to monitor(OLED display) and the app.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
